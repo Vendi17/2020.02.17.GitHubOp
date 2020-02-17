@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2020._02._17.GitHubOp
 {
-    class Program
+    class auto
     {
-        static void Main(string[] args)
-        {
-            
-        }
     }
 }
