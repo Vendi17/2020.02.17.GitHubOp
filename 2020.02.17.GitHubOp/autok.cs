@@ -15,6 +15,13 @@ namespace _2020._02._17.GitHubOp
             using (StreamReader sr = new StreamReader(fName))
             {
                 sr.ReadLine();
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineArr = line.Split(';');
+                    auto uj = new auto(lineArr[1] + lineArr[2] + Convert.ToInt32(lineArr[3]) + Convert.ToInt32(lineArr[4]) + lineArr[5] + Convert.ToInt32(lineArr[6]);
+                    
+                }
             }
 
         }

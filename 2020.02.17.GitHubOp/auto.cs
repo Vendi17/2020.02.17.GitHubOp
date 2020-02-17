@@ -34,7 +34,7 @@ namespace _2020._02._17.GitHubOp
 
         public override string ToString()
         {
-            return base.ToString();
+            return string.Format("{0,20}" + "{1,20}" + "{2,20}" + "{3,20}" + "{4,20}" + "{5,20}" + "{6,20}");
         }
     }
 }
