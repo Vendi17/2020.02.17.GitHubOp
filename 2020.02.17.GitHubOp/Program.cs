@@ -10,6 +10,7 @@ namespace _2020._02._17.GitHubOp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Sex on the beach, Git Repo");
         }
     }
 }
