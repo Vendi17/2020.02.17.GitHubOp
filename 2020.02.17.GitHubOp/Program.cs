@@ -10,7 +10,7 @@ namespace _2020._02._17.GitHubOp
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine();
         }
     }
 }

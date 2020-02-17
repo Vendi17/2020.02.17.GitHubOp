@@ -20,10 +20,15 @@ namespace _2020._02._17.GitHubOp
                     string line = sr.ReadLine();
                     string[] lineArr = line.Split(';');
                     auto uj = new auto(lineArr[0],lineArr[1] , Convert.ToInt32(lineArr[2]) , Convert.ToInt32(lineArr[3]) , lineArr[4] , Convert.ToInt32(lineArr[5]));
+                    AutoLista.Add(uj);
                     
                 }
             }
 
+        }
+        public int howmanyCarsAreThere()
+        {
+            return AutoLista.Count;
         }
     }
 }
